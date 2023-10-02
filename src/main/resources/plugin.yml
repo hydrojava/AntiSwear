@@ -1,0 +1,30 @@
+name: AntiSwear
+version: '1.0.0'
+main: cf.sslyi.antiswear.AntiSwear
+api-version: 1.19
+author: Hydro
+commands:
+ asw:
+  description: "Anti Swear main command"
+  usage: "/asw <add|remove|list|help>"
+  aliases: [antiswear]
+permissions:
+ asw.bypass:
+  description: Allows players to bypass the AntiSwear filter.
+  default: op
+ asw.add:
+  description: Allows players to add a word to the AntiSwear filter.
+  default: op
+ asw.remove:
+  default: op
+  description: Allows players to remove a word from the AntiSwear filter.
+ asw.list:
+  default: op
+  description: Allows players to view the AntiSwear filter list.
+ asw.notify:
+  default: op
+  description: Allows players to get notified when someone swears.
+
+
+
+

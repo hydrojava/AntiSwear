@@ -1,0 +1,23 @@
+# AntiSwear configuration, edit to your needs.
+# Do not copy and re-publish under your name please.
+
+# Placeholders possible:
+# %player% - players name
+#Word list, you can edit this by /asw add and /asw remove.
+
+words:
+  - fuck
+
+
+# Message that gets sent to a player if they say any word in the above list.
+playerwarning: "Sorry %player%, that word is not allowed here."
+
+# Message that gets sent to staff members when someone says any word in the above list
+staffmessage: ""
+
+
+
+
+
+
+
